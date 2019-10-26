@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Event</string>
+    <string name="home">Home</string>
+    <string name="allEvent">All Event</string>
+    <string name="user">User</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_2_147">2.147</string>
+    <string name="_398">398</string>
+    <string name="_217">217</string>
+    <string name="peserta_event">Peserta Event</string>
+    <string name="partner_event">Partner Event</string>
+    <string name="_25">25</string>
+    <string name="media_partner">Media Partner</string>
+    <string name="kategori_event">KATEGORI EVENT</string>
+    <string name="rekomendasi_event">REKOMENDASI EVENT</string>
+    <string name="workshop_android">Workshop Android</string>
+    <string name="semarang">Semarang</string>
+    <string name="_20">20</string>
+    <string name="okt">Okt</string>
+    <string name="informasi_event">INFORMASI EVENT</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="kuota">Kuota</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="htm">HTM</string>
+    <string name="event_by">EVENT BY</string>
+    <string name="favorite">Favorite</string>
+
+    <string-array name="event_name">
+        <item>Workshop Android</item>
+        <item>Seminar IoT</item>
+        <item>Konser Musik</item>
+        <item>Seminar Gizi</item>
+        <item>Vapers Talkshow</item>
+        <item>Pengajian</item>
+    </string-array>
+
+    <array name="event_poster">
+        <item>
+            https://www.dicoding.com/images/original/event/papercom_meetup_let_s_start_the_journey_mc_260318191634.png
+        </item>
+        <item>https://siedoo.com/wp-content/uploads/2019/02/WhatsApp-Image-2019-02-18-at-11.02.09-AM.jpeg</item>
+        <item>https://www.patinews.com/wp-content/uploads/2019/10/Saksikan-20-November-di-Pati.jpg</item>
+        <item>
+            https://1.bp.blogspot.com/-2TY7VuDqfG0/XTQ27kPQ46I/AAAAAAAABkY/h8ltWHZ52-IaotQTNY8qCBA_FR60IeI4gCLcBGAs/s1600/uin%2Bsemarnag%2B321.jpg
+        </item>
+        <item>
+            https://scontent-yyz1-1.cdninstagram.com/vp/375e8dacfc342878c2cc3669475d3c4c/5DD8FA1A/t51.2885-15/sh0.08/e35/s640x640/67111887_129788148256078_4679386709361797111_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com
+        </item>
+        <item>
+            https://1.bp.blogspot.com/-C3xgEsUOwSQ/Wecz5hk317I/AAAAAAAAMVQ/jMRi5bo3r58gf7-L78Sn7SkWUaF5Lu84ACLcBGAs/s1600/Pengajian%2BHUT%2B70%2BPR%2BSUkun%2BGrup.jpg
+        </item>
+    </array>
+
+    <array name="event_location">
+        <item>Semarang</item>
+        <item>Jepara</item>
+        <item>Pati</item>
+        <item>Ngaliyan</item>
+        <item>Kudus</item>
+        <item>Demak</item>
+    </array>
+
+    <array name="event_htm">
+        <item>Free</item>
+        <item>Free</item>
+        <item>20k</item>
+        <item>Free</item>
+        <item>Free</item>
+        <item>Free</item>
+    </array>
+
+    <array name="event_kuota">
+        <item>20 Orang</item>
+        <item>100 Orang</item>
+        <item>Unlimited</item>
+        <item>70 Orang</item>
+        <item>Unlimited</item>
+        <item>Unlimited</item>
+    </array>
+
+    <array name="event_date">
+        <item>17 Oktober 2019</item>
+        <item>23 Desember 2019</item>
+        <item>21 Desember 2019</item>
+        <item>11 November 2019</item>
+        <item>15 November 2019</item>
+        <item>31 Deesmber 2019</item>
+    </array>
+
+    <array name="event_by">
+        <item>Polytechnic Computer Club</item>
+        <item>Papercom Indonesia</item>
+        <item>Pemerintah Kab.Pati</item>
+        <item>HMJ Gizi UIN Walisongo</item>
+        <item>Vapers Kudus Club</item>
+        <item>PSHT Demak</item>
+    </array>
+
+    <array name="event_desc">
+        <item>Workshop android by PCC</item>
+        <item>Seminar IoT by Papercom</item>
+        <item>Konser Sobat Ambyar by Pemerintah Kab.Pati</item>
+        <item>Seminar Gizi by HMJ UIN Walisongo</item>
+        <item>Vapers Meetup by Vapers Kudus Club</item>
+        <item>Pengajian by PSHT Demak</item>
+    </array>
+
+
+</resources>

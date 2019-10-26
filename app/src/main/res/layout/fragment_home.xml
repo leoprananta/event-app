@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".views.home.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                    android:id="@+id/home_linearLayout_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:baselineAligned="false">
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/_2_147"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:layout_margin="3dp"/>
+
+                    <View
+                            android:layout_width="40dp"
+                            android:layout_height="2dp"
+                            android:background="@color/colorPrimary"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/peserta_event"
+                            android:layout_margin="3dp"
+                            android:textSize="12sp"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/_398"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:layout_margin="3dp"/>
+
+                    <View
+                            android:layout_width="40dp"
+                            android:layout_height="2dp"
+                            android:background="@color/colorPrimary"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/app_name"
+                            android:layout_margin="3dp"
+                            android:textSize="12sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/_217"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:layout_margin="3dp"/>
+
+                    <View
+                            android:layout_width="40dp"
+                            android:layout_height="2dp"
+                            android:background="@color/colorPrimary"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/partner_event"
+                            android:layout_margin="3dp"
+                            android:textSize="12sp"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/_25"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:layout_margin="3dp"/>
+
+                    <View
+                            android:layout_width="40dp"
+                            android:layout_height="2dp"
+                            android:background="@color/colorPrimary"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/media_partner"
+                            android:layout_margin="3dp"
+                            android:textSize="12sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/home_linearLayout_line1"
+                    android:layout_width="match_parent"
+                    android:layout_height="12dp"
+                    android:background="@color/colorGrey"
+                    app:layout_constraintTop_toBottomOf="@id/home_linearLayout_top"
+                    android:orientation="horizontal"/>
+
+
+            <LinearLayout
+                    android:id="@+id/home_linearLayout_middle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toBottomOf="@id/home_linearLayout_line1">
+
+                <TextView
+                        android:id="@+id/home_textView_kategori"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kategori_event"
+                        android:layout_margin="8dp"
+                        android:textSize="14sp"/>
+
+                <LinearLayout
+                        android:id="@+id/home_linearLayout_kategori"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_margin="4dp"
+                            android:gravity="center">
+
+                        <LinearLayout
+                                android:id="@+id/home_musik"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginRight="18dp"
+                                android:layout_marginLeft="18dp"
+                                android:gravity="center">
+
+                            <ImageView
+                                    android:layout_width="52dp"
+                                    android:layout_height="52dp"
+                                    android:src="@drawable/cat1"/>
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Musik"
+                                    android:textSize="12sp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginRight="18dp"
+                                android:layout_marginLeft="18dp"
+                                android:gravity="center">
+
+                            <ImageView
+                                    android:layout_width="52dp"
+                                    android:layout_height="52dp"
+                                    android:src="@drawable/cat2"/>
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Seminar"
+                                    android:textSize="12sp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginRight="18dp"
+                                android:layout_marginLeft="18dp"
+                                android:gravity="center">
+
+                            <ImageView
+                                    android:layout_width="52dp"
+                                    android:layout_height="52dp"
+                                    android:src="@drawable/cat3"/>
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Fotografi"
+                                    android:textSize="12sp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginRight="18dp"
+                                android:layout_marginLeft="18dp"
+                                android:gravity="center">
+
+                            <ImageView
+                                    android:layout_width="52dp"
+                                    android:layout_height="52dp"
+                                    android:src="@drawable/cat4"/>
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Reuni"
+                                    android:textSize="12sp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_gravity="center"
+                            android:layout_margin="4dp">
+
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginRight="18dp"
+                                android:layout_marginLeft="18dp"
+                                android:gravity="center">
+
+                            <ImageView
+                                    android:layout_width="52dp"
+                                    android:layout_height="52dp"
+                                    android:src="@drawable/cat5"/>
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Pengajian"
+                                    android:textSize="12sp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginRight="18dp"
+                                android:layout_marginLeft="18dp"
+                                android:gravity="center">
+
+                            <ImageView
+                                    android:layout_width="52dp"
+                                    android:layout_height="52dp"
+                                    android:src="@drawable/cat6"/>
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Hiburan"
+                                    android:textSize="12sp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginRight="18dp"
+                                android:layout_marginLeft="18dp"
+                                android:gravity="center">
+
+                            <ImageView
+                                    android:layout_width="52dp"
+                                    android:layout_height="52dp"
+                                    android:src="@drawable/cat7"/>
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Otomotif"
+                                    android:textSize="12sp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginRight="18dp"
+                                android:layout_marginLeft="18dp"
+                                android:gravity="center">
+
+                            <ImageView
+                                    android:layout_width="52dp"
+                                    android:layout_height="52dp"
+                                    android:src="@drawable/cat8"/>
+
+                            <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Lain-lain"
+                                    android:textSize="12sp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/home_linearLayout_line2"
+                    android:layout_width="match_parent"
+                    android:layout_height="12dp"
+                    android:background="@color/colorGrey"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toBottomOf="@id/home_linearLayout_middle"
+                    android:orientation="horizontal"/>
+
+
+            <LinearLayout
+                    android:id="@+id/home_linearLayout_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toBottomOf="@id/home_linearLayout_line2">
+
+                <TextView
+                        android:id="@+id/home_textView_eventTerbaru"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rekomendasi_event"
+                        android:textSize="14sp"
+                        app:layout_constraintTop_toBottomOf="@+id/home_linearLayout_kategori"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        app:layout_constraintHorizontal_bias="0.028"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/home_recyclerView_event"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toBottomOf="@+id/home_textView_eventTerbaru"
+                        android:layout_marginTop="8dp"/>
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</FrameLayout>
